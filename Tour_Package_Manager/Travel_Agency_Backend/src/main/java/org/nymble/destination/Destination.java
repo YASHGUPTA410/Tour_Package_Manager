@@ -7,7 +7,7 @@ import org.nymble.activity.Activity;
 import java.util.List;
 
 /**
- * Entity for Activity
+ * Entity for Destination
  * @author  Yash Gupta
  * @version 1.0
  * @since   2023-12-30
