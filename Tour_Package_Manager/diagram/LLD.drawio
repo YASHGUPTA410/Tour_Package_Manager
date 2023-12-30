@@ -1,0 +1,178 @@
+<mxfile host="Electron" modified="2023-07-01T13:01:37.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="HOmuA0eijxJVd0T6M6aI" version="21.5.0" type="device">
+  <diagram name="Page-1" id="q2SVWDD7w3zE8_YZwi8l">
+    <mxGraphModel dx="1733" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-13" value="Passenger" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="590" y="450" width="230" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-14" value="&lt;b&gt;name : String&lt;br&gt;passengerNum : int&lt;br&gt;type : Membership&lt;br&gt;balance : double &lt;br&gt;activities : List&amp;lt;Activity&amp;gt;&lt;br&gt;destinationList : List&amp;lt;Destination&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-13" vertex="1">
+          <mxGeometry y="26" width="230" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-15" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-13" vertex="1">
+          <mxGeometry y="130" width="230" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-16" value="&lt;b&gt;getName() : String&lt;/b&gt;&lt;br&gt;&lt;b&gt;getPassengerNum() : int&lt;/b&gt;&lt;br&gt;&lt;b&gt;getType : Membership&lt;/b&gt;&lt;br&gt;&lt;b&gt;getBalance() : int&lt;/b&gt;&lt;br&gt;&lt;b&gt;getActivities() : List &lt;br&gt;getDestinations() : List&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;setName() : String&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;setPassengerNum() : int&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;setType : Membership&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;setBalance() : int&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-13" vertex="1">
+          <mxGeometry y="140" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-17" value="Membership [ENUM]" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="890" y="320" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-18" value="&lt;b&gt;Standard : String &lt;br&gt;Gold : String&lt;br&gt;Premium : String&lt;/b&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-17" vertex="1">
+          <mxGeometry y="29" width="140" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-20" value="PassengerManager [Interface]" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="520" y="186" width="370" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-22" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-20" vertex="1">
+          <mxGeometry y="26" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-23" value="&lt;b&gt;addActivity(Passenger passenger , Activity activity) : boolean&lt;br&gt;calculateActivityCost(Passenger passenger) : double&amp;nbsp; &amp;nbsp;&lt;br&gt;addDestination(Passenger passenger , Destination destination) :&amp;nbsp;void&lt;/b&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-20" vertex="1">
+          <mxGeometry y="34" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.527;exitY=1.041;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.547;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="LORKtiXRPs9Gw_h9Iq6R-23" target="LORKtiXRPs9Gw_h9Iq6R-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="390" as="sourcePoint" />
+            <mxPoint x="610" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-25" value="Current Passenger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="720" y="350" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-26" value="Activity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="140" y="500" width="250" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-27" value="&lt;b&gt;name : String&lt;br&gt;activityId : int&lt;br&gt;description : String&amp;nbsp;&lt;br&gt;cost : double&amp;nbsp;&lt;br&gt;capacity : int&lt;br&gt;destination : Destination&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-26" vertex="1">
+          <mxGeometry y="26" width="250" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-28" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-26" vertex="1">
+          <mxGeometry y="130" width="250" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-29" value="&lt;b&gt;getName() : String&lt;br&gt;getDescription() : String&amp;nbsp;&lt;br&gt;getCost() : double&lt;br&gt;getCapacity() : int&lt;br&gt;getDestination() : Destination&lt;br&gt;&lt;br&gt;getActivityId() : int&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;setName() : String&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;setCost() : double&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;setCapacity() : int&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-26" vertex="1">
+          <mxGeometry y="140" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-30" value="ActivityManager [Interface]" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="100" y="336" width="370" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-31" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-30" vertex="1">
+          <mxGeometry y="26" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-32" value="&lt;div&gt;&lt;b&gt;&amp;nbsp;boolean addPassengerToActivity(Activity activity);&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp;boolean checkCapacity(Activity activity);&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-30" vertex="1">
+          <mxGeometry y="34" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-34" value="Current Activity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="314" y="440" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.019;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.009;exitY=0.708;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="LORKtiXRPs9Gw_h9Iq6R-14" target="LORKtiXRPs9Gw_h9Iq6R-27" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="510" as="sourcePoint" />
+            <mxPoint x="560" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.488;exitY=1.052;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="LORKtiXRPs9Gw_h9Iq6R-32" target="LORKtiXRPs9Gw_h9Iq6R-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="430" as="sourcePoint" />
+            <mxPoint x="550" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-45" value="Destination" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="510" y="914" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-46" value="&lt;b&gt;name : String&lt;br&gt;destinationId : int&lt;br&gt;&amp;nbsp;List&amp;lt;Activity&amp;gt; activityList;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-45" vertex="1">
+          <mxGeometry y="26" width="250" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-47" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-45" vertex="1">
+          <mxGeometry y="100" width="250" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-48" value="&lt;b&gt;getName() : String&lt;br&gt;getDestinationId() : int&lt;br&gt;getActivityList() : List&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-45" vertex="1">
+          <mxGeometry y="110" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-56" value="TourPacakge" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="1001" y="854" width="240" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-57" value="&lt;b&gt;name : String&amp;nbsp;&lt;br&gt;packageId : int&lt;br&gt;passangerCapacity : int&lt;br&gt;destination : List&amp;lt;Destination&amp;gt;&amp;nbsp;&lt;br&gt;passenger : List&amp;lt;Passenger&amp;gt;&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-56" vertex="1">
+          <mxGeometry y="26" width="240" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-58" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-56" vertex="1">
+          <mxGeometry y="130" width="240" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-59" value="&lt;b&gt;getName() : String&lt;br&gt;getPackageId() : int&lt;br&gt;getDestination() : List&amp;lt;Destination&amp;gt;&lt;br&gt;getPassenger() : List&amp;lt;Passenger&amp;gt;&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;setName() : String&lt;br&gt;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-56" vertex="1">
+          <mxGeometry y="140" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-60" value="TourPackageManager [Interface]" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="890" y="700" width="490" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-61" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-60" vertex="1">
+          <mxGeometry y="26" width="490" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-62" value="&lt;b&gt;addPassenger(Passenger passenger , TourPackage tourPackage) :&amp;nbsp; boolean&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;addDestination(Destination destination , TourPackage tourPackage); : boolean&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" parent="LORKtiXRPs9Gw_h9Iq6R-60" vertex="1">
+          <mxGeometry y="34" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-63" value="Current TourPackage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="817" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-64" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.488;exitY=1.052;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="LORKtiXRPs9Gw_h9Iq6R-62" target="LORKtiXRPs9Gw_h9Iq6R-56" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1343" y="734" as="sourcePoint" />
+            <mxPoint x="1393" y="684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-65" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="LORKtiXRPs9Gw_h9Iq6R-57" target="LORKtiXRPs9Gw_h9Iq6R-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="820" as="sourcePoint" />
+            <mxPoint x="690" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-76" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.008;exitY=0.29;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="LORKtiXRPs9Gw_h9Iq6R-23" target="LORKtiXRPs9Gw_h9Iq6R-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="410" as="sourcePoint" />
+            <mxPoint x="470" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-77" value="REQUIRES&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBackgroundColor=none;fontColor=#393C56;" parent="1" vertex="1">
+          <mxGeometry x="210" y="240" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-78" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.046;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="LORKtiXRPs9Gw_h9Iq6R-57" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="930" as="sourcePoint" />
+            <mxPoint x="800" y="770" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LORKtiXRPs9Gw_h9Iq6R-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.805;entryY=1.087;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.014;exitY=0.052;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" parent="1" source="LORKtiXRPs9Gw_h9Iq6R-16" target="LORKtiXRPs9Gw_h9Iq6R-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="580" as="sourcePoint" />
+            <mxPoint x="760" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1003" y="597" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTER6yzhawLEdx_jlN2w-1" value="DestinationManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="60" y="930" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fTER6yzhawLEdx_jlN2w-2" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="fTER6yzhawLEdx_jlN2w-1">
+          <mxGeometry y="26" width="370" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fTER6yzhawLEdx_jlN2w-3" value="&lt;b&gt;void addActivity(Destination destination , Activity activity);&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;display:none&quot; id=&quot;SDCloudData&quot;&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="fTER6yzhawLEdx_jlN2w-1">
+          <mxGeometry y="34" width="370" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="fTER6yzhawLEdx_jlN2w-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.998;exitY=0.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.019;entryY=0.32;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;strokeColor=#E07A5F;" edge="1" parent="1" source="fTER6yzhawLEdx_jlN2w-3" target="LORKtiXRPs9Gw_h9Iq6R-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="920" as="sourcePoint" />
+            <mxPoint x="530" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fTER6yzhawLEdx_jlN2w-5" value="Current Destination" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="380" y="900" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

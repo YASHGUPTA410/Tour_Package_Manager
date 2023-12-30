@@ -1,0 +1,5 @@
+org/nymble/AppTest.class
+org/nymble/TourPackage/TourPackageManagerIMPLTest.class
+org/nymble/Destination/DestinationManagerIMPLTest.class
+org/nymble/Activity/ActivityManagerIMPLTest.class
+org/nymble/Passenger/PassengerManagerIMPLTest.class
